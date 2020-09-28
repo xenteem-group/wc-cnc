@@ -1,0 +1,133 @@
+.wcContentWrap {
+  position: absolute;
+  width: 100%;
+  height: auto;
+
+  .wcContentRow {
+    margin: 0px !important;
+  }
+
+  .wcCol {
+    padding: 0 !important;
+  }
+
+  .wcContentCol {
+    position: relative;
+
+    .wcContentElements {
+      padding: 25px;
+
+      h2.contentTitle {
+        margin: 0px;
+        padding-bottom: 10px;
+        color: #e8e4e1;
+        text-shadow: 0px 2px 10px #333333;
+      }
+
+      .contentDescWrap {
+        max-width: 300px;
+        max-height: 350px;
+        overflow: hidden;
+
+        ul {
+          color: #fff;
+          background-color: rgba(0, 0, 0, 0.25);
+          padding: 10px;
+
+          li {
+            padding-bottom: 5px;
+            padding-left: 25px;
+            list-style-position: inside;
+            text-indent: -1.5em;
+
+            .descBullet {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+
+      .contentBtn {
+        position: absolute;
+        left: calc(50% - 100px);
+        bottom: 30px;
+        padding: 10px 20px;
+        width: 200px;
+        color: #7C3C21;
+        font-weight: 600;
+        background:rgba(255,255,255,0.6);
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: none;
+        transition: 0.25s all ease-out;
+      }
+
+      .contentBtn:hover {
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.8);
+        text-shadow: 1px 1px 5px rgba(66,115,136, 0.5);
+      }
+
+      .contentBtn:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+      }
+    }
+    .wcContentElements:first-child {
+      padding-left: 40px;
+    }
+    .wcContentElements:last-child {
+      padding-right: 40px;
+    }
+  }
+
+  .bgColCNC {
+    background-image: url("../../assets/images/cnc-bg.jpg");
+    background-size: cover;
+  }
+
+  .bgCol3d {
+    background-image: url("../../assets/images/3d-bg.jpg");
+    background-size: cover;
+  }
+
+  .bgColLaser {
+    background-image: url("../../assets/images/laser-bg.jpg");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .wcContent {
+    margin-top: 60px;
+
+    .wcContentWrap {
+      position: relative;
+      width: 100%;
+      height: auto;
+
+      .wcContentCol {
+        .wcContentElements:first-child {
+          padding-left: 20px;
+        }
+
+        .wcContentElements:last-child {
+          padding-right: 20px;
+        }
+      }
+
+      .bgColCNC {
+        background-position: center center;
+      }
+
+      .bgCol3d {
+        background-position: center center;
+      }
+
+      .bgColLaser {
+        background-position: center center;
+      }
+    }
+  }
+}
