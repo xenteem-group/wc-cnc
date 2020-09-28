@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Work from '../Work/Work';
-import classes from './Gallery.module.css';
+import classes from './Gallery.module.scss';
 
 const Gallery = props => (
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import classes from './Work.module.css';
+import classes from './Work.module.scss';
 
 const Work = props => (
     <li className={classes.Work}>

@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Carousel from "../../components/Body/Carousel/Carousel";
 import About from "../../components/Body/About/About";
 import Gallery from "../../components/Body/Gallery/Gallery";
+import Form from "../../components/Body/Form/Form";
+
 import classes from "./body.module.scss";
 import WorkImg from "../../assets/images/cnc-bg.jpg";
 
@@ -20,6 +22,7 @@ class Body extends Component {
       <div className={classes.cncBody}>
         <Carousel />
         <About />
+        <Form />
         <Gallery works={works} />
       </div>
     );

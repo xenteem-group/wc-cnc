@@ -1,11 +1,11 @@
 .wcFooter{
+    margin-top: 20px;
     width: 100%;
-    background-color: #fff2e5;
 
     .wcfooterContact{
         text-align: center;
         padding: 15px 0;
-
+        background-color: #fff2e5;
 
         .wcFooterContactIcon{
             margin-right: 10px;
@@ -35,15 +35,8 @@
 
 @media (max-width:992px){
     .wcFooter{
-        position: relative;
-        width: 100%;
-        background-color: #fff2e5;
     
-        .wcfooterContact{
-            text-align: center;
-            padding: 15px 0;
-    
-    
+           .wcfooterContact{
     
             span{
                 display:block;
@@ -51,10 +44,6 @@
                 margin:0px;
     
                 a{
-                    text-decoration: none;
-                    color: #7C3C21;
-                    transition: 0.5s ease;
-
                         .wcFooterContactIcon{
                         display:block;
                         padding-bottom:10px;
@@ -62,16 +51,9 @@
                     }
                 }
     
-                a:hover{
-                    color: #000;
-                }
+
             }
         }
-    
-        .wcFooterCopyrights{
-            text-align: center;
-            padding: 10px;
-            background-color: #fff7f0 ;
-        }
+
     }
 }
