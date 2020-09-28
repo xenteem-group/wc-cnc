@@ -1,0 +1,22 @@
+.Gallery {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.Gallery h3 {
+    color:#febd0e; 
+    font-size:30px; 
+    margin-bottom:50px
+}
+
+.Gallery h3 span {
+    display:inline-block; 
+    font-weight:700;
+}
+
+.Gallery ul {
+    width: 100%;
+    float: left;
+}

@@ -1,4 +1,4 @@
-const landingData = {
+const cncData = {
   social: {
     facebook: "https://facebook.com",
     instagram: "https://instagram.com"
@@ -23,4 +23,4 @@ const landingData = {
     
 };
 
-export default landingData;
+export default cncData;

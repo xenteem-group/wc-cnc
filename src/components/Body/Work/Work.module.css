@@ -1,0 +1,75 @@
+.Work {
+    width:33.33333%; 
+    float:left;
+}
+
+.Work * {
+    -moz-transition: all 0.3s ease; 
+    -o-transition: all 0.3s ease; 
+    -ms-transition: all 0.3s ease; 
+    transition: all 0.3s ease;
+}
+
+.Work img {
+    width: 100%;
+    float: left;
+}
+
+.Work figure {
+    width:100%;
+    height:100%; 
+    float:left; 
+    position:relative;
+    margin: 0;
+}
+
+.Work figcaption {
+    width:100%; 
+    height:100%; 
+    position:absolute; 
+    left:0; 
+    top:0; 
+    opacity:0;
+}
+
+.Work figure:hover figcaption {
+    opacity: 1;
+    padding: 10px;
+}
+
+.Work .Table {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: table;
+    background:rgba(254,210,15,0.8);
+}
+
+.Work .Inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Work .Inner h4 {
+    font-weight:700; 
+    color:#fff; 
+    font-size:20px;
+}
+
+.Work .Inner small {
+    color:#fff; 
+    font-weight:500;
+}
+
+@media (max-width: 989px) {
+    .Work {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .Work {
+        width: 100%;
+        padding: 0 20px 10px 20px;
+    }
+}
