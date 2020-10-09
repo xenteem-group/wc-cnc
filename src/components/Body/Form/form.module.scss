@@ -8,5 +8,21 @@
     Button{
         float: right;
         margin: 14px;
+        background-color: #fff2e5;
+        color: #000;
+        border-width: 1px;
+        border-color: #000;
+        border-radius: 10px;
     }
+
+    Button:hover{
+        border-color: #000;
+        background-color: #7c3c21;
+
+    }
+    p{
+        font-size: 12px ;
+        color: red;
+    }
+
 }
